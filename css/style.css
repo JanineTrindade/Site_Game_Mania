@@ -176,6 +176,7 @@ h5{
     top: 190px;
     
 }
+
 .destaque{
     
 position: absolute;
@@ -184,19 +185,18 @@ height: 700px;
 left: 550px;
 top: 230px;
 margin-top: 20px;
-border-radius: 0 8px 32px 0 ;
-/* margin-left: 590px;
-
-box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2);
-border-top-left-radius: none;
-border-top-right-radius: none;
-backdrop-filter: blur(40px); */
-/* Note: backdrop-filter has minimal browser support */
-
-/* border-radius: 30px; */
-
-    /* /* margin-left: 590px; */
     
+}
+
+.descricao1{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 480px;
+}
+
+.carousel-inner{
+    border-radius: 40px ;
 }
 
 .conteudo{
@@ -381,6 +381,116 @@ backdrop-filter: blur(40px); */
     
 }
 
+.img6{
+
+    max-width:30px;
+    max-height:30px;
+    position: absolute;
+    left: 35px;
+    margin-top: 5px;
+   
+    
+}
+
+.img7{
+
+    max-width:30px;
+    max-height:30px;
+    position: absolute;
+    left: 35px;
+    margin-top: 5px;
+   
+    
+}
+
+.img8{
+
+    max-width:30px;
+    max-height:30px;
+    position: absolute;
+    left: 35px;
+    margin-top: 5px;
+   
+    
+}
+
+.img9{
+
+    max-width:30px;
+    max-height:30px;
+    position: absolute;
+    left: 35px;
+    margin-top: 5px;
+   
+    
+}
+
+.img10{
+
+    max-width:30px;
+    max-height:30px;
+    position: absolute;
+    left: 35px;
+    margin-top: 5px;
+   
+    
+}
+
+.img11{
+
+    max-width:30px;
+    max-height:30px;
+    position: absolute;
+    left: 275px;
+    margin-top: 5px; 
+}
+
+.img12{
+
+    max-width:30px;
+    max-height:30px;
+    position: absolute;
+    left: 275px;
+    margin-top: 5px; 
+}
+
+.img13{
+
+    max-width:30px;
+    max-height:30px;
+    position: absolute;
+    left: 275px;
+    margin-top: 5px; 
+}
+
+.img14{
+
+    max-width:30px;
+    max-height:30px;
+    position: absolute;
+    left: 275px;
+    margin-top: 5px; 
+}
+
+.img15{
+
+    max-width:30px;
+    max-height:30px;
+    position: absolute;
+    left: 275px;
+    margin-top: 5px; 
+}
+
+.img16{
+
+    max-width:30px;
+    max-height:30px;
+    position: absolute;
+    left: 720px;
+    transform: rotate(90deg);
+    margin-top: 28px; 
+}
+
 button{
     all:unset;
     cursor: pointer;
@@ -495,6 +605,15 @@ a:hover{
     border: 1px solid white;
     margin-left: 100px;
     /* margin-top: 40px; */
+    
+}
+
+#linha-horizontal2 {
+    width: 150px;
+    border: 1px solid white;
+    margin-left: 558px;
+    position: absolute;
+    margin-top: 455px;
     
 }
 
