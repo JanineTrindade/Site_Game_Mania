@@ -12,6 +12,10 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css"/> <!-- link css -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
     <!-- BIBLIOTECA BOOTSRAP -->
 
     <!-- CSS only -->
@@ -28,14 +32,33 @@
 <div class="menu">  <!-- MENU PESQUSA,CONTA E CARRINHO -->
     <div class="logo"></div>  <!-- LOGO -->
     <div class="menu3">  <!-- MENU DA ESQUERDA ABAIXO DO LOGO -->
-        <ul>
+
+        <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="color:white">GAMES</a><br>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color:white">NOTEBOOKS</a><br>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color:white">PC GAMER</a><br>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#" style="color:white">CELULARES</a><br>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color:white">PROMOCÃO</a><br>
+              </li>
+          </ul>
+
+        <!-- <ul>
             <li>GAMES</li>
             <li>NOTEBOOKS</li>
             <li>PC GAMER</li>
             <li>CELULARES</li>
             <li>PROMOCÃO</li>
         
-        </ul>
+        </ul> -->
 
 
     </div>
@@ -44,6 +67,7 @@
 
     <div class="caixa7">CAIXA7</div> 
     <div class="caixa8">CAIXA8</div>
+    <div class="caixa8">CAIXA9</div>
 </div>
 
 
@@ -84,8 +108,8 @@
     
 
         <div class="menu2"> <!-- MENU - NOVIDADES, PRODUTOS,CONTATO -->
-            <button class="btnnovidade" type="submit" aria-label="">
-                <a href="pag2.html">NOVIDADE</button></a>  <!-- BOTAO NOVIDADE -->
+            <button class="btnnovidade">
+                <a href="pag2.html">NOVIDADE</button></a> <!-- BOTAO NOVIDADE-->
 
                 <button class="btnprodutos" type="submit" aria-label="">
                     <a href="pag2.html">PRODUTOS</button></a>  <!-- BOTAO PRODUTOS -->
@@ -103,7 +127,64 @@
             
         </div>
 
-        <div class="destaque">DESTAQUE</div> <!-- DESTAQUE -->
+        <!--   <div class="destaque">DESTAQUE</div>  DESTAQUE -->
+
+        <h5>DESTAQUE</h5>
+
+        <div class="destaque">
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <!-- <button class="btndestaque1" type="button"  class="btn btn-danger" aria-label="">
+                    <a href="pag2.html">TESTE</button></a></button> -->
+                </div>
+                <button type="button"  class="btn btn-danger btn-lg" >Comprar</button>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="imagens/fotodestaque1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="color:white"></h5>
+                      <p style="color:white"></p>
+                      
+                    </div>
+                    
+                    
+                  </div>
+
+  
+
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="imagens/fotodestaque2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="color:white"></h5>
+                      <p style="color:white"></p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="imagens/fotodestaque3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="color:white"></h5>
+                      <p style="color:white"></p>
+                    
+                    </div>
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden" style="color:white"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden" style="color:white"></span>
+                </button>
+              </div>
+        </div>
 
     <div class="conteudo"> <!-- CONTEUDO -->
 
